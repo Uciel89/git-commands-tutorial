@@ -9,7 +9,7 @@ Tutorial inicial de git - github / Comandos basicos y versioando 🌱
 ## Comandos basicos 🏗️
 ### Inicializar un repositorio local en un proyecto
 ```bash
-# Inicializamos una instancia de un repositorio remoto dentro de nuestro proyecto
+Inicializamos una instancia de un repositorio remoto dentro de nuestro proyecto
 git init 
 ```
 ```bash
@@ -17,13 +17,15 @@ git init
 git add . 
 ```
 ```bash
-# Indicamos todos los cambios que vamos a realizar dentro de nuestro repositorio local bajo un nombre
+# Indicamos todos los cambios que vamos a realizar dentro de nuestro repositorio
+# local bajo un nombre
 git commit -m "nombre del commit" 
 ```
 
 ### Vinculamos un repositorio remoto a nuestro repositorio local
 ```bash
-# Indicamos todos los cambios que vamos a realizar dentro de nuestro repositorio local bajo un nombre
+# Indicamos todos los cambios que vamos a realizar dentro de nuestro repositorio
+# local bajo un nombre
 git remote add nombre-vinculo url-repo
 git remote add origin https://github.com/Uciel89/git-commands-tutorial.git
 ```
@@ -54,6 +56,7 @@ Por ultimo vamos a subir esta etiqueta a nuestro repositorio remoto para por fin
 # Primero actualizamos nuestra rama principal
 git push origin master
 
-# Segundo enviamos los mismo cambios pero dentro de nuestra etiqueta (la primera vez lo generara)
+# Segundo enviamos los mismo cambios pero dentro de nuestra etiqueta
+# (la primera vez lo generara)
 git push origin v1.0
 ```
