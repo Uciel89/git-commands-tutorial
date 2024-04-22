@@ -7,6 +7,13 @@ Tutorial inicial de git - github / Comandos básicos y versionado 🌱
 > Algun entorno de desarrollo, ejemplo: [VSCode](https://code.visualstudio.com/download) (opcional)
 
 ## Comandos básicos 🏗️
+
+### Configurar un usuario, mail y password dentro de nuestro sistema (opcional)
+```bash
+git config user.email "email@ejemplo.com" 
+git config user.name "nombre" 
+git config user.password "token de seguridad"
+```
 ### Inicializar un repositorio local en un proyecto
 Inicializamos una instancia de un repositorio remoto dentro de nuestro proyecto
 ```bash
@@ -60,7 +67,7 @@ git push origin master
 git push origin v1.0
 ```
 
-## Flujo para actualizar una versión especifica
+## Flujo para actualizar una versión especifica (opcional)
 > git checkout -> Nos permite movernos entre las diferentes ramas dentro de nuestro repositorio local
 ```bash
 git pull origin v1.0
