@@ -58,3 +58,12 @@ git push origin master
 # (la primera vez lo generara)
 git push origin v1.0
 ```
+
+## Documentación oficial de GIT 😺
+
+[Link de la documentación](https://git-scm.com/doc)
+
+## Material extra 📖
+### Metodologia GIT FLOW
+
+[Link a la pagina oficial](https://danielkummer.github.io/git-flow-cheatsheet/index.es_ES.html)
