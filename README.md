@@ -76,8 +76,23 @@ git add .
 git commit -m "nombre-del-commit"
 git tag v1.0 -f
 git push origin v1.0 -f
+git switch -
 ```
 
+### Comandos extras pero *importantes* ✍🏼
+```bash
+# Nos permite clonar un repositorio
+git clone url-repositorio
+# Nos permite saber en que rama estamos 
+git branch
+  # Crear una nueva rama
+  git branch new_branch
+  # Eliminar una rama
+  git branch -D new_branch
+# Nos permite movernos de una rama a otra y tambien genera
+# una rama si es que ya no existe
+git checkout new_brach 
+```
 ## Documentación oficial de GIT 😺
 
 [Link de la documentación](https://git-scm.com/doc)
