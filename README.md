@@ -60,6 +60,17 @@ git push origin master
 git push origin v1.0
 ```
 
+## Flujo para actualizar una versión especifica
+> git checkout -> Nos permite movernos entre las diferentes ramas dentro de nuestro repositorio local
+```bash
+git pull origin v1.0
+git checkout v1.0
+git add .
+git commit -m "nombre-del-commit"
+git tag v1.0 -f
+git push origin v1.0 -f
+```
+
 ## Documentación oficial de GIT 😺
 
 [Link de la documentación](https://git-scm.com/doc)
